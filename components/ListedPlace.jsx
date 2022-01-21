@@ -22,13 +22,12 @@ export default function ListedPlace(props) {
 
 const styles = StyleSheet.create({
     placeCard:{
-        flexDirection:'column',
         backgroundColor:'#ddd',
-        width:360,
+        width:380,
         margin:10,
         padding:20,
         justifyContent:'space-evenly',
-        borderRadius:8,
+        borderRadius:5,
     },
     title:{
         fontWeight:'bold', 
@@ -38,16 +37,15 @@ const styles = StyleSheet.create({
     description: {
         color:'#333',
         paddingVertical:5,
-        fontWeight:500
+        fontWeight:'bold'
     },
     turnos: {
         flexDirection:'row',
-        flexWrap:'wrap',
         paddingVertical:10
     },
     turno: {
         color:'#333',
         backgroundColor:'#999',
-        padding:2,
+        padding:4,
     }
 })

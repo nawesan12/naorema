@@ -55,10 +55,10 @@ export default function Home() {
     <View style={styles.container}>
       <View style={styles.buttonContainer}>
         <View style={styles.button}>
-          <Text style={{color:'#000', fontWeight:'bold', fontSize:'1.2rem'}}>+ Agregar Turno</Text>
+          <Text style={{color:'#000', fontWeight:'bold', fontSize:18}}>+ Agregar Turno</Text>
         </View>
         <View style={styles.delBtn}>
-          <Text style={{color:'#000', fontWeight:500, fontSize:'1.2rem'}}>Quitar Turno X</Text>
+          <Text style={{color:'#000', fontWeight:'500', fontSize:18}}>Quitar Turno X</Text>
         </View>
       </View>
       
@@ -73,7 +73,7 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexDirection: 'column',
     alignItems:'center',
     backgroundColor:'#214252'
   },
